@@ -1,0 +1,61 @@
+:root {
+    --mainColor: #de24be;
+}
+
+
+.main .titleParent {
+    margin-top: 16px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.main .titleParent h2 {
+    color: var(--mainColor);
+}
+
+.main .dateListParent {
+    text-align: center;
+    color: var(--mainColor);
+}
+
+.main .dateListParent .dateItem {
+    margin: 4px;
+    border-radius: 4px;
+    border: 1px solid var(--mainColor);
+}
+
+.main .matchList {
+    margin: 24px;
+}
+
+.main .matchList .matchCard {
+    border: 1px solid #aaaaaa;
+    box-shadow: 0px 0px 20px #aaaaaa;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.main .matchList .matchCard .matchDate {
+    text-align: center;
+}
+
+.main .matchList .matchCard .team1 {
+    text-align: center;
+}
+
+.main .matchList .matchCard .team1 p {
+    margin-top: 8px;
+}
+
+.main .matchList .matchCard .score {
+    text-align: center;
+    font-size: 36px;
+}
+
+.main .matchList .matchCard .team2 {
+    text-align: center;
+}
+
+.main .matchList .matchCard .team2 p {
+    margin-top: 8px;
+}
