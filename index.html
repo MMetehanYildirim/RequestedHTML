@@ -16,54 +16,14 @@
 </head>
 
 <body>
-    <div class="main">
+    <div id="vueapp" class="main">
         <div class="titleParent">
             <h2>EURO 2021</h2>
         </div>
         <div class="dateListParent row justify-content-center">
-            <div class="col-1 dateItem">
-                <p>11</p>
-                <p>Haziran</p>
-            </div>
-            <div class="col-1 dateItem">
-                <p>12</p>
-                <p>Haziran</p>
-            </div>
-            <div class="col-1 dateItem">
-                <p>13</p>
-                <p>Haziran</p>
-            </div>
-            <div class="col-1 dateItem">
-                <p>14</p>
-                <p>Haziran</p>
-            </div>
-            <div class="col-1 dateItem">
-                <p>15</p>
-                <p>Haziran</p>
-            </div>
-            <div class="col-1 dateItem">
-                <p>16</p>
-                <p>Haziran</p>
-            </div>
-            <div class="col-1 dateItem">
-                <p>17</p>
-                <p>Haziran</p>
-            </div>
-            <div class="col-1 dateItem">
-                <p>18</p>
-                <p>Haziran</p>
-            </div>
-            <div class="col-1 dateItem">
-                <p>19</p>
-                <p>Haziran</p>
-            </div>
-            <div class="col-1 dateItem">
-                <p>20</p>
-                <p>Haziran</p>
-            </div>
-            <div class="col-1 dateItem">
-                <p>21</p>
-                <p>Haziran</p>
+            <div v-for="date in dateList" class="col-1 dateItem">
+                <p>{{date.day}}</p>
+                <p>{{date.month}}</p>
             </div>
         </div>
 
@@ -151,6 +111,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="./assets/js/moment.min.js"></script>
+    <script src="./assets/js/mainVue.js"></script>
+
     <!--  JS End  -->
 </body>
 
